@@ -1,0 +1,130 @@
+{
+  "run_number": 89,
+  "commit_sha": "08e3a53ec1e2a687d90374e7a479de9d41ac242b",
+  "run_type": "nightly",
+  "utc": "2026-10-14T03:35:38Z",
+  "overall_status": "PASSED",
+  "shards_total": 4,
+  "shards_passed": 4,
+  "shards_failed": 0,
+  "shards": {
+    "litmus-stability-c": {
+      "status": "PASSED",
+      "log_file": "shard-litmus-stability-c.log",
+      "tail": "  \"runs\": [\n    {\n      \"iteration\": 1,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 2,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 3,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 4,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 5,\n      \"status\": \"PASSED\"\n    }\n  ],\n  \"pass_count\": 5,\n  \"fail_count\": 0,\n  \"status\": \"PASSED\",\n  \"pass_rate\": 100.0\n}\n\n=== Stability summary (c): 5/5 PASS, 0/5 FAIL ===\n\u2705 Stability threshold met (>=80%)",
+      "results": {
+        "shard": "litmus-stability-c",
+        "iterations": 5,
+        "runs": [
+          {
+            "iteration": 1,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 2,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 3,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 4,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 5,
+            "status": "PASSED"
+          }
+        ],
+        "pass_count": 5,
+        "fail_count": 0,
+        "status": "PASSED",
+        "pass_rate": 100.0
+      }
+    },
+    "litmus-stability-rust": {
+      "status": "PASSED",
+      "log_file": "shard-litmus-stability-rust.log",
+      "tail": "  \"runs\": [\n    {\n      \"iteration\": 1,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 2,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 3,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 4,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 5,\n      \"status\": \"PASSED\"\n    }\n  ],\n  \"pass_count\": 5,\n  \"fail_count\": 0,\n  \"status\": \"PASSED\",\n  \"pass_rate\": 100.0\n}\n\n=== Stability summary (rust): 5/5 PASS, 0/5 FAIL ===\n\u2705 Stability threshold met (>=80%)",
+      "results": {
+        "shard": "litmus-stability-rust",
+        "iterations": 5,
+        "runs": [
+          {
+            "iteration": 1,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 2,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 3,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 4,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 5,
+            "status": "PASSED"
+          }
+        ],
+        "pass_count": 5,
+        "fail_count": 0,
+        "status": "PASSED",
+        "pass_rate": 100.0
+      }
+    },
+    "litmus-stability-ts": {
+      "status": "PASSED",
+      "log_file": "shard-litmus-stability-ts.log",
+      "tail": "  \"runs\": [\n    {\n      \"iteration\": 1,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 2,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 3,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 4,\n      \"status\": \"PASSED\"\n    },\n    {\n      \"iteration\": 5,\n      \"status\": \"PASSED\"\n    }\n  ],\n  \"pass_count\": 5,\n  \"fail_count\": 0,\n  \"status\": \"PASSED\",\n  \"pass_rate\": 100.0\n}\n\n=== Stability summary (ts): 5/5 PASS, 0/5 FAIL ===\n\u2705 Stability threshold met (>=80%)",
+      "results": {
+        "shard": "litmus-stability-ts",
+        "iterations": 5,
+        "runs": [
+          {
+            "iteration": 1,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 2,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 3,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 4,
+            "status": "PASSED"
+          },
+          {
+            "iteration": 5,
+            "status": "PASSED"
+          }
+        ],
+        "pass_count": 5,
+        "fail_count": 0,
+        "status": "PASSED",
+        "pass_rate": 100.0
+      }
+    },
+    "tsan-deep": {
+      "status": "PASSED",
+      "log_file": "shard-tsan-deep.log",
+      "tail": "{\"test\":\"L7-revocation\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"reclaim_ok\":true,\"post_revoke_revoked\":100,\"poison_intact\":true,\"first_revoked_at\":874}}\nL8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1\n{\"test\":\"L8-envelope\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"roundtrip\":true,\"unknown_fields\":true,\"negotiation\":true,\"coexist\":true}}\nL1 hold=5ms claims=488 torn=0 drain_ok=1 claims_per_s=194.9\nL1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.0\nL1 hold=50ms claims=52 torn=0 drain_ok=1 claims_per_s=20.3\n{\"test\":\"L1-tear\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"holds_ms\":[5,10,50],\"claims\":789,\"claims_per_s\":104.8,\"torn\":0,\"drain_ok\":true}}\nL2 hold=0ms published=2000 max_wsteps=1 ok=1\nL2 hold=10ms published=2000 max_wsteps=1 ok=1\nL2 hold=25ms published=2000 max_wsteps=1 ok=1\nL2 hold=50ms published=2000 max_wsteps=1 ok=1\nL2 hold=100ms published=2000 max_wsteps=1 ok=1\n{\"test\":\"L2-writer-steps\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"holds_ms\":[0,10,25,50,100],\"publishes\":10000,\"max_wsteps\":1,\"bound\":2}}\nL3 claims=2000 max_rsteps=1 bound=2 pass=1\n{\"test\":\"L3-reader-steps\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"claims\":2000,\"max_rsteps\":1,\"bound\":2}}\nL4 freshness_violations=0 future_violations=0 stale_returns=1 drain_exact=1 (last=2000) pass=1\n{\"test\":\"L4-freshness\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"frames\":2000,\"freshness_violations\":0,\"future_violations\":0,\"drain_exact\":true,\"stale_returns\":1}}\nL5 hold=0ms rate=2000.0 Hz\nL5 hold=10ms rate=2000.0 Hz\nL5 hold=50ms rate=2000.0 Hz\nL5 hold=100ms rate=2000.0 Hz\nL5 suspended-reader rate=2000.0 Hz\nL5 ratio=1.000 tolerance=1.50 pass=1\n{\"test\":\"L5-progress\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"rates_hz\":[2000.0,2000.0,2000.0,2000.0,2000.0],\"ratio\":1.000,\"tolerance\":1.50,\"configs\":5}}\nL6 trials=200 violations=0 seed=0x00C0FFEE pass=1\n{\"test\":\"L6-ownership\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"trials\":200,\"frames_per_trial\":64,\"violations\":0,\"seed\":\"0x00C0FFEE\"}}\nL7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1\n{\"test\":\"L7-revocation\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"reclaim_ok\":true,\"post_revoke_revoked\":100,\"poison_intact\":true,\"first_revoked_at\":876}}\nL8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1\n{\"test\":\"L8-envelope\",\"lang\":\"c\",\"pass\":true,\"metrics\":{\"roundtrip\":true,\"unknown_fields\":true,\"negotiation\":true,\"coexist\":true}}",
+      "results": {
+        "shard": "tsan-deep",
+        "iterations": 5,
+        "total_runs": 40,
+        "tsan_warning_hits": 0,
+        "fail_count": 0,
+        "status": "PASSED"
+      }
+    }
+  }
+}
