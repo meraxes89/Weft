@@ -1,7 +1,7 @@
 ==============================================================================
-WEFT NIGHTLY DEEP MATRIX — RUN #98
+WEFT NIGHTLY DEEP MATRIX — RUN #99
 COMMIT: 08e3a53ec1e2a687d90374e7a479de9d41ac242b
-UTC:    2026-10-23T03:25:56Z
+UTC:    2026-10-24T03:23:21Z
 ==============================================================================
 
 --- SHARD: litmus-stability-c (PASSED) ---
@@ -24,7 +24,7 @@ make[1]: Leaving directory '/home/runner/work/Weft/Weft/core/c'
   running c L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running c L6-ownership...
-    -> exit=0 elapsed=3.9s pass=True
+    -> exit=0 elapsed=4.0s pass=True
   running c L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running c L8-envelope...
@@ -36,13 +36,13 @@ make[1]: Leaving directory '/home/runner/work/Weft/Weft/core/c'
   running c L12-canary-corruption...
     -> exit=0 elapsed=0.0s pass=True
   running c L13-claim-retry...
-    -> exit=0 elapsed=1.1s pass=True
+    -> exit=0 elapsed=1.2s pass=True
   running c L14-mixed-endianness...
     -> exit=0 elapsed=0.0s pass=True
   running c L15-huge-payload...
     -> exit=0 elapsed=1.7s pass=True
   running c L16-rapid-reclaim...
-    -> exit=0 elapsed=0.9s pass=True
+    -> exit=0 elapsed=0.8s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
 Wrote /home/runner/work/Weft/Weft/litmus/results.json
 
@@ -59,7 +59,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running c L6-ownership...
-    -> exit=0 elapsed=3.9s pass=True
+    -> exit=0 elapsed=4.0s pass=True
   running c L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running c L8-envelope...
@@ -71,13 +71,13 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L12-canary-corruption...
     -> exit=0 elapsed=0.0s pass=True
   running c L13-claim-retry...
-    -> exit=0 elapsed=1.1s pass=True
+    -> exit=0 elapsed=1.2s pass=True
   running c L14-mixed-endianness...
     -> exit=0 elapsed=0.0s pass=True
   running c L15-huge-payload...
     -> exit=0 elapsed=1.7s pass=True
   running c L16-rapid-reclaim...
-    -> exit=0 elapsed=0.9s pass=True
+    -> exit=0 elapsed=0.8s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
 Wrote /home/runner/work/Weft/Weft/litmus/results.json
 
@@ -94,7 +94,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running c L6-ownership...
-    -> exit=0 elapsed=3.9s pass=True
+    -> exit=0 elapsed=4.0s pass=True
   running c L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running c L8-envelope...
@@ -106,13 +106,13 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L12-canary-corruption...
     -> exit=0 elapsed=0.0s pass=True
   running c L13-claim-retry...
-    -> exit=0 elapsed=1.1s pass=True
+    -> exit=0 elapsed=1.2s pass=True
   running c L14-mixed-endianness...
     -> exit=0 elapsed=0.0s pass=True
   running c L15-huge-payload...
     -> exit=0 elapsed=1.7s pass=True
   running c L16-rapid-reclaim...
-    -> exit=0 elapsed=0.9s pass=True
+    -> exit=0 elapsed=0.8s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
 Wrote /home/runner/work/Weft/Weft/litmus/results.json
 
@@ -129,7 +129,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running c L6-ownership...
-    -> exit=0 elapsed=3.9s pass=True
+    -> exit=0 elapsed=4.0s pass=True
   running c L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running c L8-envelope...
@@ -141,13 +141,13 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L12-canary-corruption...
     -> exit=0 elapsed=0.0s pass=True
   running c L13-claim-retry...
-    -> exit=0 elapsed=1.1s pass=True
+    -> exit=0 elapsed=1.2s pass=True
   running c L14-mixed-endianness...
     -> exit=0 elapsed=0.0s pass=True
   running c L15-huge-payload...
     -> exit=0 elapsed=1.7s pass=True
   running c L16-rapid-reclaim...
-    -> exit=0 elapsed=0.9s pass=True
+    -> exit=0 elapsed=0.8s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
 Wrote /home/runner/work/Weft/Weft/litmus/results.json
 
@@ -164,7 +164,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running c L6-ownership...
-    -> exit=0 elapsed=3.9s pass=True
+    -> exit=0 elapsed=4.0s pass=True
   running c L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running c L8-envelope...
@@ -176,13 +176,13 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running c L12-canary-corruption...
     -> exit=0 elapsed=0.0s pass=True
   running c L13-claim-retry...
-    -> exit=0 elapsed=1.1s pass=True
+    -> exit=0 elapsed=1.2s pass=True
   running c L14-mixed-endianness...
     -> exit=0 elapsed=0.0s pass=True
   running c L15-huge-payload...
     -> exit=0 elapsed=1.7s pass=True
   running c L16-rapid-reclaim...
-    -> exit=0 elapsed=0.9s pass=True
+    -> exit=0 elapsed=0.8s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
 Wrote /home/runner/work/Weft/Weft/litmus/results.json
 {
@@ -296,7 +296,7 @@ cd core/rust && cargo build --release
   running rust L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running rust L6-ownership...
-    -> exit=0 elapsed=4.0s pass=True
+    -> exit=0 elapsed=3.9s pass=True
   running rust L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running rust L8-envelope...
@@ -317,7 +317,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running rust L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running rust L6-ownership...
-    -> exit=0 elapsed=4.0s pass=True
+    -> exit=0 elapsed=3.9s pass=True
   running rust L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running rust L8-envelope...
@@ -338,7 +338,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running rust L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running rust L6-ownership...
-    -> exit=0 elapsed=4.0s pass=True
+    -> exit=0 elapsed=3.9s pass=True
   running rust L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running rust L8-envelope...
@@ -359,7 +359,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running rust L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running rust L6-ownership...
-    -> exit=0 elapsed=4.0s pass=True
+    -> exit=0 elapsed=3.9s pass=True
   running rust L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running rust L8-envelope...
@@ -380,7 +380,7 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running rust L5-progress...
     -> exit=0 elapsed=5.0s pass=True
   running rust L6-ownership...
-    -> exit=0 elapsed=4.0s pass=True
+    -> exit=0 elapsed=3.9s pass=True
   running rust L7-revocation...
     -> exit=0 elapsed=0.0s pass=True
   running rust L8-envelope...
@@ -431,17 +431,17 @@ TS kernel loads OK
   running ts L1-tear...
     -> exit=0 elapsed=0.7s pass=True
   running ts L2-writer-steps...
-    -> exit=0 elapsed=0.3s pass=True
+    -> exit=0 elapsed=0.4s pass=True
   running ts L3-reader-steps...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L4-freshness...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L5-progress...
-    -> exit=0 elapsed=4.1s pass=True
+    -> exit=0 elapsed=4.2s pass=True
   running ts L6-ownership...
-    -> exit=0 elapsed=9.5s pass=True
+    -> exit=0 elapsed=14.1s pass=True
   running ts L7-revocation...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L8-envelope...
     -> exit=0 elapsed=0.1s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
@@ -452,17 +452,17 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running ts L1-tear...
     -> exit=0 elapsed=0.7s pass=True
   running ts L2-writer-steps...
-    -> exit=0 elapsed=0.3s pass=True
+    -> exit=0 elapsed=0.4s pass=True
   running ts L3-reader-steps...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L4-freshness...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L5-progress...
-    -> exit=0 elapsed=4.1s pass=True
+    -> exit=0 elapsed=4.2s pass=True
   running ts L6-ownership...
-    -> exit=0 elapsed=9.3s pass=True
+    -> exit=0 elapsed=14.0s pass=True
   running ts L7-revocation...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L8-envelope...
     -> exit=0 elapsed=0.1s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
@@ -473,17 +473,17 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running ts L1-tear...
     -> exit=0 elapsed=0.7s pass=True
   running ts L2-writer-steps...
-    -> exit=0 elapsed=0.3s pass=True
+    -> exit=0 elapsed=0.4s pass=True
   running ts L3-reader-steps...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L4-freshness...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L5-progress...
-    -> exit=0 elapsed=4.1s pass=True
+    -> exit=0 elapsed=4.2s pass=True
   running ts L6-ownership...
-    -> exit=0 elapsed=9.3s pass=True
+    -> exit=0 elapsed=14.0s pass=True
   running ts L7-revocation...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L8-envelope...
     -> exit=0 elapsed=0.1s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
@@ -494,17 +494,17 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running ts L1-tear...
     -> exit=0 elapsed=0.7s pass=True
   running ts L2-writer-steps...
-    -> exit=0 elapsed=0.3s pass=True
+    -> exit=0 elapsed=0.4s pass=True
   running ts L3-reader-steps...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L4-freshness...
     -> exit=0 elapsed=0.2s pass=True
   running ts L5-progress...
-    -> exit=0 elapsed=4.1s pass=True
+    -> exit=0 elapsed=4.2s pass=True
   running ts L6-ownership...
-    -> exit=0 elapsed=9.3s pass=True
+    -> exit=0 elapsed=14.0s pass=True
   running ts L7-revocation...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L8-envelope...
     -> exit=0 elapsed=0.1s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
@@ -515,17 +515,17 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
   running ts L1-tear...
     -> exit=0 elapsed=0.7s pass=True
   running ts L2-writer-steps...
-    -> exit=0 elapsed=0.3s pass=True
+    -> exit=0 elapsed=0.4s pass=True
   running ts L3-reader-steps...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L4-freshness...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=1 elapsed=0.2s pass=False
   running ts L5-progress...
-    -> exit=0 elapsed=4.1s pass=True
+    -> exit=0 elapsed=4.2s pass=True
   running ts L6-ownership...
-    -> exit=0 elapsed=9.3s pass=True
+    -> exit=0 elapsed=13.9s pass=True
   running ts L7-revocation...
-    -> exit=0 elapsed=0.1s pass=True
+    -> exit=0 elapsed=0.2s pass=True
   running ts L8-envelope...
     -> exit=0 elapsed=0.1s pass=True
 Wrote /home/runner/work/Weft/Weft/litmus/REPORT.md
@@ -552,16 +552,17 @@ Wrote /home/runner/work/Weft/Weft/litmus/results.json
     },
     {
       "iteration": 5,
-      "status": "PASSED"
+      "status": "FAILED",
+      "failing": "ts/L4-freshness"
     }
   ],
-  "pass_count": 5,
-  "fail_count": 0,
+  "pass_count": 4,
+  "fail_count": 1,
   "status": "PASSED",
-  "pass_rate": 100.0
+  "pass_rate": 80.0
 }
 
-=== Stability summary (ts): 5/5 PASS, 0/5 FAIL ===
+=== Stability summary (ts): 4/5 PASS, 1/5 FAIL ===
 ✅ Stability threshold met (>=80%)
 
 
@@ -669,13 +670,13 @@ STATUS: PASSED
 === TSAN deep summary: 0 TSAN warnings across 40 runs ===
 s":0,"seed":"0x00C0FFEE"}}
 L7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1
-{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":665}}
+{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":970}}
 L8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1
 {"test":"L8-envelope","lang":"c","pass":true,"metrics":{"roundtrip":true,"unknown_fields":true,"negotiation":true,"coexist":true}}
-L1 hold=5ms claims=493 torn=0 drain_ok=1 claims_per_s=196.9
-L1 hold=10ms claims=250 torn=0 drain_ok=1 claims_per_s=99.4
-L1 hold=50ms claims=52 torn=0 drain_ok=1 claims_per_s=20.3
-{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":795,"claims_per_s":105.5,"torn":0,"drain_ok":true}}
+L1 hold=5ms claims=491 torn=0 drain_ok=1 claims_per_s=196.0
+L1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.3
+L1 hold=50ms claims=51 torn=0 drain_ok=1 claims_per_s=20.0
+{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":791,"claims_per_s":105.1,"torn":0,"drain_ok":true}}
 L2 hold=0ms published=2000 max_wsteps=1 ok=1
 L2 hold=10ms published=2000 max_wsteps=1 ok=1
 L2 hold=25ms published=2000 max_wsteps=1 ok=1
@@ -696,13 +697,13 @@ L5 ratio=1.000 tolerance=1.50 pass=1
 L6 trials=200 violations=0 seed=0x00C0FFEE pass=1
 {"test":"L6-ownership","lang":"c","pass":true,"metrics":{"trials":200,"frames_per_trial":64,"violations":0,"seed":"0x00C0FFEE"}}
 L7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1
-{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":1105}}
+{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":980}}
 L8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1
 {"test":"L8-envelope","lang":"c","pass":true,"metrics":{"roundtrip":true,"unknown_fields":true,"negotiation":true,"coexist":true}}
-L1 hold=5ms claims=492 torn=0 drain_ok=1 claims_per_s=196.4
+L1 hold=5ms claims=491 torn=0 drain_ok=1 claims_per_s=196.0
 L1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.3
 L1 hold=50ms claims=52 torn=0 drain_ok=1 claims_per_s=20.3
-{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":793,"claims_per_s":105.3,"torn":0,"drain_ok":true}}
+{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":792,"claims_per_s":105.2,"torn":0,"drain_ok":true}}
 L2 hold=0ms published=2000 max_wsteps=1 ok=1
 L2 hold=10ms published=2000 max_wsteps=1 ok=1
 L2 hold=25ms published=2000 max_wsteps=1 ok=1
@@ -723,13 +724,13 @@ L5 ratio=1.000 tolerance=1.50 pass=1
 L6 trials=200 violations=0 seed=0x00C0FFEE pass=1
 {"test":"L6-ownership","lang":"c","pass":true,"metrics":{"trials":200,"frames_per_trial":64,"violations":0,"seed":"0x00C0FFEE"}}
 L7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1
-{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":1058}}
+{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":1091}}
 L8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1
 {"test":"L8-envelope","lang":"c","pass":true,"metrics":{"roundtrip":true,"unknown_fields":true,"negotiation":true,"coexist":true}}
-L1 hold=5ms claims=492 torn=0 drain_ok=1 claims_per_s=196.5
-L1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.3
-L1 hold=50ms claims=52 torn=0 drain_ok=1 claims_per_s=20.3
-{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":793,"claims_per_s":105.4,"torn":0,"drain_ok":true}}
+L1 hold=5ms claims=491 torn=0 drain_ok=1 claims_per_s=196.0
+L1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.0
+L1 hold=50ms claims=51 torn=0 drain_ok=1 claims_per_s=20.0
+{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":791,"claims_per_s":105.0,"torn":0,"drain_ok":true}}
 L2 hold=0ms published=2000 max_wsteps=1 ok=1
 L2 hold=10ms published=2000 max_wsteps=1 ok=1
 L2 hold=25ms published=2000 max_wsteps=1 ok=1
@@ -750,13 +751,13 @@ L5 ratio=1.000 tolerance=1.50 pass=1
 L6 trials=200 violations=0 seed=0x00C0FFEE pass=1
 {"test":"L6-ownership","lang":"c","pass":true,"metrics":{"trials":200,"frames_per_trial":64,"violations":0,"seed":"0x00C0FFEE"}}
 L7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1
-{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":654}}
+{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":924}}
 L8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1
 {"test":"L8-envelope","lang":"c","pass":true,"metrics":{"roundtrip":true,"unknown_fields":true,"negotiation":true,"coexist":true}}
-L1 hold=5ms claims=492 torn=0 drain_ok=1 claims_per_s=196.3
+L1 hold=5ms claims=491 torn=0 drain_ok=1 claims_per_s=196.0
 L1 hold=10ms claims=249 torn=0 drain_ok=1 claims_per_s=99.3
-L1 hold=50ms claims=52 torn=0 drain_ok=1 claims_per_s=20.3
-{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":793,"claims_per_s":105.3,"torn":0,"drain_ok":true}}
+L1 hold=50ms claims=51 torn=0 drain_ok=1 claims_per_s=20.0
+{"test":"L1-tear","lang":"c","pass":true,"metrics":{"holds_ms":[5,10,50],"claims":791,"claims_per_s":105.1,"torn":0,"drain_ok":true}}
 L2 hold=0ms published=2000 max_wsteps=1 ok=1
 L2 hold=10ms published=2000 max_wsteps=1 ok=1
 L2 hold=25ms published=2000 max_wsteps=1 ok=1
@@ -777,7 +778,7 @@ L5 ratio=1.000 tolerance=1.50 pass=1
 L6 trials=200 violations=0 seed=0x00C0FFEE pass=1
 {"test":"L6-ownership","lang":"c","pass":true,"metrics":{"trials":200,"frames_per_trial":64,"violations":0,"seed":"0x00C0FFEE"}}
 L7 reclaim_ok=1 post_revoke_revoked=100 poison_intact=1 pass=1
-{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":1060}}
+{"test":"L7-revocation","lang":"c","pass":true,"metrics":{"reclaim_ok":true,"post_revoke_revoked":100,"poison_intact":true,"first_revoked_at":682}}
 L8 roundtrip=1 unknown=1 negotiation=1 coexist=1 pass=1
 {"test":"L8-envelope","lang":"c","pass":true,"metrics":{"roundtrip":true,"unknown_fields":true,"negotiation":true,"coexist":true}}
 
